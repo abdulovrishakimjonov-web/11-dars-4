@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background:#ccc;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(40deg, #ff0057, #0099ff, #00ffcc);
+  background-size: 100% 100%;
+  animation: moveBg 8s ease-in-out infinite alternate;
+  z-index: 90;
+}
+
+header {
+  background:#0f0f0feb;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow:0px 2px 2px aliceblue;
+}
+
+.btn {
+  background:aqua;
+  color: #1e88e5;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#loader {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+#product-list, #admin-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background:rgb(125, 100, 237);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.form-section input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+
+}
+
+button {
+  padding:12px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 32%;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+@keyframes moveBg {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

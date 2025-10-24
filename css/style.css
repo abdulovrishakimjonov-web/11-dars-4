@@ -66,11 +66,15 @@ header {
 }
 
 .form-section input {
-  padding: 12px;
-  border: 1px solid #ccc;
+  padding: 12px ;
+  border: 1px solid #5c5959;
   border-radius: 5px;
   width: 30%;
 
+}
+
+input:hover {
+    background-color: #f9f7fa;
 }
 
 button {

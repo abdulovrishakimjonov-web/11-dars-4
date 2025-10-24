@@ -6,7 +6,7 @@ body {
   margin: 0;
   top: 0;
   left: 0;
-  background: linear-gradient(40deg, #ff0057, #0099ff, #00ffcc);
+  background: linear-gradient(0deg, #ded5d8, #89969eb3, #4c5755);
   background-size: 100% 100%;
   animation: moveBg 8s ease-in-out infinite alternate;
   z-index: 90;
@@ -19,12 +19,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-shadow:0px 2px 2px aliceblue;
 }
 
 .btn {
-  background:aqua;
-  color: #1e88e5;
+  background:rgb(78, 112, 112);
+  color: #dbe2e9;
   padding: 6px 12px;
   border-radius: 5px;
   text-decoration: none;
@@ -44,7 +43,7 @@ header {
 }
 
 .card {
-  background:rgb(125, 100, 237);
+  background: linear-gradient(0deg, #514b52, #89969eb3, #4c5755);
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   padding: 10px;
@@ -55,7 +54,6 @@ header {
   width: 100%;
   border-radius: 6px;
 }
-
 .card h3 {
   margin: 10px 0 5px;
 }
@@ -77,7 +75,7 @@ header {
 
 button {
   padding:12px;
-  background: #1e88e5;
+  background: #3d3c3a;
   color: white;
   border: none;
   border-radius: 5px;
@@ -86,7 +84,7 @@ button {
 }
 
 button:hover {
-  background: #1565c0;
+  background: #8a8a8b;
 }
 
 @keyframes moveBg {
